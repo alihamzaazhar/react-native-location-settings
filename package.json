@@ -34,7 +34,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alihamzaazhar/react-native-location-settings.git"
+    "url": "git+https://github.com/alihamzaazhar/react-native-location-settings.git",
+    "homepage": "https://github.com/alihamzaazhar/react-native-location-settings"
   },
   "author": "Ali Hamza",
   "license": "MIT",
