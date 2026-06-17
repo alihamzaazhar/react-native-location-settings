@@ -117,4 +117,4 @@ Shows the Google Maps-style in-app dialog to enable system location (GPS).
 
 ## License
 
-MIT © [Ali Hamza](https://github.com/alihamzaazhar)
+MIT © [alihamzaazhar](https://github.com/alihamzaazhar)
