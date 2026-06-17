@@ -10,10 +10,7 @@ Instead of redirecting the user to the Settings app, this library shows the syst
 
 ## How it works
 
-Calling `checkAndEnableSystemLocation()` immediately shows the in-app GPS enable dialog. The promise resolves once the user responds:
-- User taps **OK** → resolves `true`
-- User taps **No thanks** / dismisses → resolves `false`
-- System location was already on → resolves `true` instantly (no dialog shown)
+On Android, when system location (GPS) is off, the standard approach is to redirect the user to the device Settings — which breaks the app flow and hurts UX. This library uses Google Play Services `SettingsClient` to trigger a `ResolvableApiException`, which presents the system location enable dialog directly within your app. The promise resolves `true` if location becomes available, or `false` if the user declines. If system location is already enabled, the promise resolves immediately without showing any dialog.
 
 ---
 
