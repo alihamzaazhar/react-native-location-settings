@@ -1,6 +1,6 @@
 {
   "name": "@alihamzaazhar/react-native-location-settings",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Android-only in-app location enable dialog for React Native (New Architecture / TurboModule)",
   "platforms": {
     "android": true,
@@ -62,9 +62,21 @@
     "source": "src",
     "output": "lib",
     "targets": [
-      ["commonjs", { "esm": true }],
-      ["module", { "esm": true }],
-      ["typescript"]
+      [
+        "commonjs",
+        {
+          "esm": true
+        }
+      ],
+      [
+        "module",
+        {
+          "esm": true
+        }
+      ],
+      [
+        "typescript"
+      ]
     ]
   }
 }
