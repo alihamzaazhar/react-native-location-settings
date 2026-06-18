@@ -1,6 +1,6 @@
 {
   "name": "@alihamzaazhar/react-native-location-settings",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Android-only in-app location enable dialog for React Native (New Architecture / TurboModule)",
   "platforms": {
     "android": true,
