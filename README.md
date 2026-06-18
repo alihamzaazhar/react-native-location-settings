@@ -14,7 +14,7 @@ https://github.com/user-attachments/assets/c274d478-ec09-4e5c-b234-0f0652237a98
 
 ## How it works
 
-On Android, when system location (GPS) is off, the standard approach is to redirect the user to the device Settings — which breaks the app flow and hurts UX. This library uses Google Play Services `SettingsClient` to trigger a `ResolvableApiException`, which presents the system location enable dialog directly within your app. The promise resolves `true` if location becomes available, or `false` if the user declines. If system location is already enabled, the promise resolves immediately without showing any dialog.
+This library uses Google Play Services SettingsClient to trigger a ResolvableApiException, which presents the system location enable dialog directly within your app. The promise resolves true if location becomes available, or false if the user declines. If system location is already enabled, the promise resolves immediately without showing any dialog.
 
 ---
 
